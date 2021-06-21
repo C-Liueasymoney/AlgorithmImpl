@@ -31,7 +31,7 @@ public class HeapSortTemplate {
      * @param root：一开始要检查的根节点
      * @param length：数组的长度，即要进行转换堆的范围
      */
-    public void heapify(int nums[], int root, int length){
+    public void heapify(int[] nums, int root, int length){
 //        先定义出当前root根节点的左子节点
         int son = root * 2 + 1;
 //        要有一个循环，因为如果交换了父子节点，那么可能会导致交换后子节点不满足大顶堆的要求
